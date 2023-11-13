@@ -6,7 +6,7 @@ export default function Lounge() {
     <div className="lounge container section">
       <div className="sectionContainer grid">
         <div className="imgDiv" data-aos='fade-left' data-aos-duration='2500'>
-          <img src={planegrid} />
+          <img src={planegrid} alt="planegrid" />
         </div>
         <div className="textDiv">
           <h2  data-aos='fade-down' data-aos-duration='2500'>Unaccompanied Minor Lounge</h2>

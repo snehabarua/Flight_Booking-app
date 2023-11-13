@@ -16,7 +16,7 @@ export default function Home() {
         <div className="videoDiv">
           <video src="sunset.mp4" autoPlay muted loop className="video" ></video>
         </div>
-        <img src={plane} className="plane" />
+        <img src={plane} className="plane" alt="plane" />
       </div>
     </div>
   );

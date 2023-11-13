@@ -44,7 +44,7 @@ export default function Support() {
           </div>
 
           <div className="imgDiv" data-aos='fade-left' data-aos-duration='2500'>
-            <img src={griditems} />
+            <img src={griditems} alt="imgitems" />
           </div>
         </div>
       </div>

@@ -55,10 +55,10 @@ export default function Travelers() {
               return (
                 //  {/* single passeneger card */}
                 <div data-aos='fade-up' data-aos-duration='2500' key={id} className="singleTraveler">
-                  <img src={destinationImage} className="destinationImage" />
+                  <img src={destinationImage} className="destinationImage" alt="destination" />
                   <div className="travelerDetails">
                     <div className="travelerPicture">
-                      <img src={travelerimg} className="travelerimg" />
+                      <img src={travelerimg} className="travelerimg"  alt="travelers"/>
                     </div>
                     <div className="travelerName">
                       <span>{travelerName}</span>
